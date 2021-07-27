@@ -61,10 +61,10 @@ console.log(lastElementInArray2(["Haas", "Cavia", "Kip", "Schildpad"]));
 const presidents = ["Trump", "Obama", "Bush", "Clinton"];
 
 const impeachTrumpSlice = function (array) {
-  return array.slice(1);
+  return array.slice(1,4);
 };
 const impeachTrumpSplice = function (array) {
-  return array.splice(1);
+  return array.splice(0,1);
 };
 
 console.log(impeachTrumpSlice(presidents));
